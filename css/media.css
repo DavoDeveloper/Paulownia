@@ -1,0 +1,170 @@
+/* //////////////////////////////////////////////////////////////////// media /////////////////////////////////////////////////////////////////////////// */
+
+@media screen and (max-width: 1250px) {
+  .header_img1,
+  .header_img2,
+  .header_img3 {
+    height: 830px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .gallerybtn {
+    display: none;
+  }
+  .nav-controls {
+    width: 70%;
+  }
+  .account-controls {
+    width: 30%;
+  }
+  .contacts {
+    flex-direction: column;
+    width: 100%;
+    align-items: end;
+  }
+  .info-section .greenbtn {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1030px) {
+  .planbtn {
+    display: none;
+  }
+  .newsbtn {
+    display: none;
+  }
+  .nav-controls {
+    width: 60%;
+  }
+  .account-controls {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .sortbtn {
+    margin: auto;
+  }
+  .profit {
+    text-align: center;
+  }
+  .first_sort {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .sort_section2 select {
+    min-width: 225px !important;
+  }
+  .elipse_logo {
+    left: 0;
+  }
+
+  .aboutbtn {
+    display: none;
+  }
+}
+@media screen and (max-width: 800px) {
+  .nav-controls {
+    display: none;
+  }
+  .account-controls {
+    width: 100%;
+  }
+  .menu {
+    display: block !important;
+  }
+  .mobile_menu {
+    display: block;
+  }
+  marquee {
+    display: none;
+  }
+  .info-section {
+    height: 235px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header_img1,
+  .header_img2,
+  .header_img3 {
+    height: 1100px;
+  }
+  .buttons {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .buttons .greenbtn {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  .pro_section {
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .info-section {
+    height: 214px;
+    padding-right: 0;
+  }
+
+  .header_menu {
+    width: 86%;
+  }
+  .contacts {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .header_menu {
+    left: 30px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .header_menu {
+    left: 17px;
+    width: 92%;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .logo {
+    width: 177px;
+    height: 72px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .calc-overlay {
+    width: 80%;
+  }
+  .wish {
+    display: none;
+  }
+  .basket {
+    display: none;
+  }
+  .header_container {
+    margin-top: 0;
+  }
+  .toggle_menu {
+    margin-top: 0;
+    font-size: 24px;
+  }
+}
+@media screen and (max-width: 370px) {
+  .header_menu {
+    left: 0px;
+    width: 100%;
+  }
+  .account-controls {
+    width: 97%;
+  }
+}

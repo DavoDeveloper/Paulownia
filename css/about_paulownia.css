@@ -1,0 +1,124 @@
+.info_sec {
+  display: flex;
+  font-size: 15px;
+}
+
+.info_sec img {
+  filter: drop-shadow(0px 5px 10px rgba(0, 0, 0, 0.15));
+  border-radius: 30px 0px;
+  margin-right: 10px;
+}
+
+.info p {
+  color: #595656;
+  margin-bottom: 15px;
+}
+
+.info span {
+  color: #5b9600;
+  text-transform: uppercase;
+}
+
+.page_loc {
+  color: #928d8d;
+  font-weight: 400;
+  font-size: 12px;
+  text-transform: lowercase;
+  width: 63%;
+}
+
+.title {
+  text-align: center;
+  width: 96%;
+}
+
+.title p {
+  font-weight: 600;
+  font-size: 12px;
+  color: #c4c4c4;
+  margin-bottom: 5px;
+}
+
+.title span {
+  font-weight: 400;
+  font-size: 24px;
+  color: #575756;
+  text-transform: uppercase;
+}
+
+.products_menu {
+  background: #fcfcfc;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 30px;
+  padding: 23px 42px;
+  color: #595656;
+}
+
+.section_title {
+  text-align: center;
+  font-weight: 400;
+  font-size: 24px;
+  color: #5b9600;
+  text-transform: uppercase;
+}
+
+.regeneration {
+  filter: drop-shadow(0px 5px 10px rgba(0, 0, 0, 0.15));
+}
+
+.regeneration img {
+  width: 100%;
+  border-radius: 30px 0px;
+}
+
+.pawlownia img {
+  width: 305px;
+  height: 242px;
+  border-radius: 30px 0px;
+}
+
+.pawlownia {
+  width: 80%;
+  background: #fcfcfc;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 30px;
+}
+
+.paw_img1 {
+  background-image: url("../img/paw1.png");
+}
+.paw_img2 {
+  background-image: url("../img/paw2.png");
+}
+.paw_img3 {
+  background-image: url("../img/paw3.png");
+}
+.paw_img4 {
+  background-image: url("../img/paw4.png");
+}
+.paw_img5 {
+  background-image: url("../img/paw5.png");
+}
+.paw_img6 {
+  background-image: url("../img/paw6.png");
+}
+
+.paw_img1,
+.paw_img2,
+.paw_img3,
+.paw_img4,
+.paw_img5,
+.paw_img6 {
+  background-size: cover;
+  width: 305px;
+  height: 242px;
+  filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.25));
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  border-radius: 30px 0px;
+}
+
+.pawlownia .greenbtn {
+  margin-bottom: 10px;
+}

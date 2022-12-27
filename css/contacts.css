@@ -1,0 +1,44 @@
+.contacts_menu {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+.contacts_menu span {
+  display: block;
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #595656;
+}
+
+.contacts_menu .contacts_title {
+  color: #5b9600;
+  text-transform: uppercase;
+}
+
+.products_menu p {
+  font-weight: 300;
+  font-size: 15px;
+  letter-spacing: 0.03em;
+  color: #595656;
+}
+
+.products_menu input,
+.products_menu select,
+.products_menu textarea {
+  width: 100%;
+  background: #ffffff;
+  border: 0.5px solid #c4c4c4;
+  border-radius: 30px;
+  outline: none;
+  padding: 9px 20px;
+  margin-bottom: 20px;
+}
+
+.products_menu select {
+  color: #595656;
+}
+.products_menu textarea {
+  resize: none;
+  height: 133px;
+}

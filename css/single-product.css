@@ -1,0 +1,292 @@
+.page_loc {
+  color: #928d8d;
+  font-weight: 400;
+  font-size: 12px;
+  text-transform: lowercase;
+}
+
+.title {
+  text-align: center;
+}
+
+.title p {
+  font-weight: 600;
+  font-size: 12px;
+  color: #c4c4c4;
+  margin-bottom: 5px;
+}
+
+.title span {
+  font-weight: 400;
+  font-size: 24px;
+  color: #575756;
+  text-transform: uppercase;
+}
+
+.products_menu {
+  background: #fcfcfc;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 30px;
+  padding: 23px 42px;
+  margin-bottom: 300px;
+  position: relative;
+  z-index: 10;
+}
+
+.slider_thumb {
+  height: 100%;
+}
+
+#imageGallery {
+  height: 519px !important;
+}
+
+.slider_big_item,
+.slider_thumb_item {
+  background-position: center center;
+  background-repeat: no-repeat;
+  border-radius: 30px 0px;
+  height: 100%;
+  background-size: contain;
+}
+
+.lSSlideOuter .lSPager.lSGallery li {
+  border: 1px solid #c4c4c4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lSSlideOuter .lSPager.lSGallery .active {
+  border: 1px solid #5b9600;
+}
+
+.lslide {
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  height: 100%;
+}
+
+.next,
+.prev {
+  color: #595656;
+}
+
+.next:hover,
+.prev:hover {
+  color: #5b9600;
+}
+.controls_block {
+  display: flex;
+}
+
+.product_info {
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 30px 0px;
+  background: #ffffff;
+  height: 522px;
+  padding: 17px 26px;
+  color: #575756;
+  font-weight: 600;
+}
+
+.order_info {
+  height: 95%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.price {
+  font-size: 20px;
+  color: #575756;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  height: 130px;
+}
+
+.count {
+  display: flex;
+  width: 50%;
+  justify-content: space-evenly;
+}
+
+.count span,
+.count input {
+  border: 1px solid #c4c4c4;
+  width: 33px;
+  text-align: center;
+  padding-bottom: 3px;
+  cursor: pointer;
+}
+
+.count input {
+  cursor: text;
+  outline: none;
+}
+
+.f_price {
+  font-weight: 600;
+  font-size: 23px;
+  color: #5b9600;
+}
+
+.stock {
+  position: absolute;
+  right: 0px;
+  top: 31px;
+  z-index: 5;
+  background-color: #5b9600;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: 600;
+  padding: 2px 5px;
+}
+
+.add_message {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  z-index: 999999999;
+  display: none;
+}
+
+.message-content {
+  height: 200px;
+  width: 350px;
+  background-color: white;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 30px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.message-header {
+  background-color: #5b9600;
+  height: 50px;
+  border-radius: 30px 0px 0px 0px;
+  width: 100%;
+  position: absolute;
+  top: 0;
+}
+.add_message span {
+  color: #569b00;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+}
+
+.show_message {
+  display: flex;
+  animation: show ease-in-out 3s;
+}
+
+@keyframes show {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    display: none;
+  }
+}
+
+.description {
+  color: #575756;
+}
+
+.description_info {
+  display: flex;
+  align-items: end;
+}
+
+.description_info img {
+  margin-right: 22px;
+}
+
+.description_sections {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}
+
+.description_sections span {
+  cursor: pointer;
+}
+
+.active {
+  color: #5b9600;
+  text-decoration: underline;
+  text-decoration-color: #5b9600;
+}
+
+.tab-btn:hover {
+  color: #5b9600 !important;
+  background-color: transparent !important;
+}
+
+.confirm {
+  justify-content: space-between;
+  width: 90%;
+}
+
+/* Style the tab content */
+.tab-content {
+  display: none;
+  padding: 6px 12px;
+  -webkit-animation: fadeEffect 1s;
+  animation: fadeEffect 1s;
+}
+
+/* Fade in tabs */
+@-webkit-keyframes fadeEffect {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeEffect {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  #imageGallery {
+    height: 319px !important;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .product_info {
+    height: 340px;
+    filter: none;
+    background: none;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .confirm {
+    width: 95%;
+  }
+  #imageGallery {
+    height: 250px !important;
+  }
+}

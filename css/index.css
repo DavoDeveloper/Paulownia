@@ -1,0 +1,329 @@
+/* ////////////////////////////////////////////////////////////////// header slider  /////////////////////////////////////////////////////////////////////////*/
+
+.pro_section {
+  width: 98%;
+  display: flex;
+  justify-content: right;
+  margin-bottom: 26px;
+}
+
+.pro {
+  background: rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  max-width: 502px;
+  height: 250px;
+  border-radius: 502px 502px 0 0;
+  padding-left: 49px;
+  padding-bottom: 19px;
+  padding-right: 25px;
+  color: white;
+  display: flex;
+  justify-content: end;
+  flex-direction: column;
+}
+
+.pro img {
+  width: 95%;
+}
+
+.slider-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 86%;
+}
+
+.social div {
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 50%;
+  height: 26px;
+  width: 26px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+.calc-overlay {
+  min-height: 124px;
+  border-radius: 100px;
+  width: 70%;
+  margin: auto;
+  background-color: #fff;
+  box-shadow: 0px 4px 10px 5px rgba(0, 0, 0, 0.05);
+  display: flex;
+  align-items: center;
+}
+
+.calc {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 15px;
+}
+
+.profit {
+  display: flex;
+  flex-direction: column;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.first_sort {
+  display: flex;
+  justify-content: space-between;
+  width: 77%;
+  flex-wrap: wrap;
+}
+
+.sort_section1,
+.sort_section2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.sort_section1 select,
+.sort_section2 select {
+  background: #ffffff;
+  border: 1px solid #c4c4c4;
+  border-radius: 30px;
+  width: 120px;
+  text-align: center;
+  padding: 6px 0;
+  appearance: none;
+}
+
+.sort_section1 label,
+.sort_section2 label {
+  color: #c4c4c4;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+/* //////////////////////////////////////////////////////////////////// slider 1 /////////////////////////////////////////////////////////////////////////// */
+
+.slider1_title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 70px;
+}
+
+.slider1_title p {
+  font-family: "Prompt";
+  font-weight: 600;
+  font-size: 12px;
+  color: #c4c4c4;
+}
+
+.slider1_title span {
+  font-family: "Prompt";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  color: #575756;
+}
+
+.slider_block1 {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  font-size: 25px;
+}
+
+.controls i {
+  color: #5b9600;
+}
+
+.controls i:hover {
+  color: #efefef;
+}
+
+/* //////////////////////////////////////////////////////////////////// slider 2 /////////////////////////////////////////////////////////////////////////// */
+
+.slider_2 {
+  background: url("../img/slider2_bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 100px;
+  padding-bottom: 5px;
+  margin-top: -50px;
+}
+
+.overlay {
+  overflow: hidden;
+  position: relative;
+}
+
+.overlay-content {
+  position: relative;
+}
+
+/* //////////////////////////////////////////////////////////////////// sorts /////////////////////////////////////////////////////////////////////////// */
+
+.sorts {
+  background: #ffffff;
+  box-shadow: 0px 4px 10px 5px rgba(0, 0, 0, 0.05);
+  border-radius: 80px;
+  width: 80%;
+  min-height: 229px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  color: #5b9600;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.sorts span:hover,
+.sorts p:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.leave_bg {
+  position: relative;
+}
+
+.leave_bg img {
+  width: 197px;
+  height: 137px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  position: absolute;
+  top: -56px;
+  left: -65px;
+  z-index: -5;
+}
+
+.sorts a {
+  color: #5b9600;
+}
+
+/* //////////////////////////////////////////////////////////////////// news /////////////////////////////////////////////////////////////////////////// */
+
+.news_block {
+  background: #fcfcfc;
+  padding: 30px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 30px;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.news_block p {
+  font-family: "Poppins";
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #677c45;
+}
+
+.news_block .date {
+  font-family: "Rubik";
+  color: #928d8d;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.news_block .info {
+  color: #575756;
+}
+
+.news_block em {
+  font-weight: 600;
+  color: #5b9600;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.news_block a {
+  color: #5b9600;
+}
+
+/* //////////////////////////////////////////////////////////////////// paulownia /////////////////////////////////////////////////////////////////////////// */
+
+.pawlownia img {
+  width: 305px;
+  height: 242px;
+  border-radius: 30px 0px;
+}
+
+.pawlownia {
+  width: 80%;
+}
+
+.paw_img1 {
+  background-image: url("../img/paw1.png");
+}
+.paw_img2 {
+  background-image: url("../img/paw2.png");
+}
+.paw_img3 {
+  background-image: url("../img/paw3.png");
+}
+.paw_img4 {
+  background-image: url("../img/paw4.png");
+}
+.paw_img5 {
+  background-image: url("../img/paw5.png");
+}
+.paw_img6 {
+  background-image: url("../img/paw6.png");
+}
+
+.paw_img1,
+.paw_img2,
+.paw_img3,
+.paw_img4,
+.paw_img5,
+.paw_img6 {
+  background-size: cover;
+  width: 305px;
+  height: 242px;
+  filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.25));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px 0px;
+}
+
+.flower {
+  position: relative;
+}
+
+.flower img {
+  width: 138px;
+  height: 136px;
+  position: absolute;
+  right: -115px;
+  top: -74px;
+  z-index: -5;
+}
+
+.transparent_bg {
+  background-image: url("../img/transparent_bg.png");
+  padding-bottom: 70px;
+  background-size: cover;
+}
+
+/* //////////////////////////////////////////////////////////////////// slider options /////////////////////////////////////////////////////////////////////////// */
+
+.lslide,
+.clone {
+  display: flex !important;
+  justify-content: center !important;
+}
+
+.slider_block1 ul {
+  height: 436px !important;
+}

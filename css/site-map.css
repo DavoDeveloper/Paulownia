@@ -1,0 +1,13 @@
+.products_menu a {
+  color: #569b00;
+  text-transform: uppercase;
+  display: block;
+}
+
+.products_menu a:hover {
+  color: grey;
+}
+
+span {
+  display: block;
+}

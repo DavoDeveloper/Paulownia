@@ -1,0 +1,268 @@
+.products_menu {
+  background: #fcfcfc;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 30px;
+  padding: 23px 42px;
+  margin-bottom: 700px;
+}
+
+/*////////////////////////////////////////////////////// head-title //////////////////////////////////////////////// */
+
+.tab-btn {
+  color: #5b9600;
+  background-color: white;
+  border: 1px solid #5b9600;
+  border-radius: 30px 0px;
+  width: 178px;
+  padding: 3px 0px;
+}
+
+.card_info {
+  cursor: pointer;
+  background-color: white !important;
+}
+
+.page_loc {
+  color: #928d8d;
+  font-weight: 400;
+  font-size: 12px;
+  text-transform: lowercase;
+}
+
+.title {
+  text-align: center;
+}
+
+.title p {
+  font-weight: 600;
+  font-size: 12px;
+  color: #c4c4c4;
+  margin-bottom: 5px;
+}
+
+.title span {
+  font-weight: 400;
+  font-size: 24px;
+  color: #575756;
+  text-transform: uppercase;
+}
+
+.tab_items {
+  background: #ffffff;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+  border-radius: 80px;
+  height: 107px;
+  justify-content: space-around;
+  align-items: center;
+  width: 60%;
+  margin: auto;
+  /* flex-wrap: wrap; */
+}
+
+.news_block p {
+  font-family: "Poppins";
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #677c45;
+}
+
+.news_block .date {
+  font-family: "Rubik";
+  color: #928d8d;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.news_block .info {
+  color: #575756;
+}
+
+.news_block em {
+  font-weight: 600;
+  color: #5b9600;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.page_controls {
+  display: flex;
+  color: #5b9600;
+  justify-content: center;
+}
+
+.page_controls i {
+  font-size: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.page_controls div {
+  border: 1px solid #928d8d;
+  padding: 0px 10px;
+  display: flex;
+}
+
+.page_controls div:hover {
+  color: #ffff;
+  background-color: #5b9600;
+  cursor: pointer;
+}
+
+.tab-content {
+  display: none;
+  padding: 6px 12px;
+  -webkit-animation: fadeEffect 1s;
+  animation: fadeEffect 1s;
+}
+
+/* Fade in tabs */
+@-webkit-keyframes fadeEffect {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeEffect {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.information span {
+  display: block;
+  margin-bottom: 20px;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.04em;
+  color: #575756;
+}
+
+.active {
+  color: white;
+  background-color: #5b9600;
+}
+
+@media screen and (max-width: 991px) {
+  .tab_items {
+    height: 200px;
+  }
+}
+
+/* ///////////////////////////////////////////////////////////////////// slider /////////////////////////////////////////////////////////////////////////*/
+
+.slider {
+  width: 100%;
+}
+.slider input {
+  display: none;
+}
+.testimonials {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  min-height: 350px;
+  perspective: 1000px;
+  overflow: hidden;
+}
+.testimonials .item {
+  width: 450px;
+  padding: 30px;
+  border-radius: 5px;
+  position: absolute;
+  top: 0;
+  box-sizing: border-box;
+  text-align: center;
+  transition: transform 0.4s;
+  user-select: none;
+  cursor: pointer;
+  background-size: cover;
+  height: 76%;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 30px;
+}
+.t-1,
+.t-4 {
+  background-image: url("../img/item_3.png");
+}
+.t-2,
+.t-5 {
+  background-image: url("../img/item_1.png");
+}
+.t-3 {
+  background-image: url("../img/item_2.png");
+}
+
+.dots label {
+  height: 5px;
+  width: 5px;
+  border-radius: 50%;
+  cursor: pointer;
+  background-color: #413b52;
+  margin: 7px;
+  transition-duration: 0.2s;
+}
+
+#t-1:checked ~ .dots label[for="t-1"],
+#t-2:checked ~ .dots label[for="t-2"],
+#t-3:checked ~ .dots label[for="t-3"],
+#t-4:checked ~ .dots label[for="t-4"],
+#t-5:checked ~ .dots label[for="t-5"] {
+  transform: scale(2);
+  background-color: #fff;
+}
+#t-1:checked ~ .dots label[for="t-2"],
+#t-2:checked ~ .dots label[for="t-1"],
+#t-2:checked ~ .dots label[for="t-3"],
+#t-3:checked ~ .dots label[for="t-2"],
+#t-3:checked ~ .dots label[for="t-4"],
+#t-4:checked ~ .dots label[for="t-3"],
+#t-4:checked ~ .dots label[for="t-5"],
+#t-5:checked ~ .dots label[for="t-4"] {
+  transform: scale(1.5);
+}
+#t-1:checked ~ .testimonials label[for="t-3"],
+#t-2:checked ~ .testimonials label[for="t-4"],
+#t-3:checked ~ .testimonials label[for="t-5"],
+#t-4:checked ~ .testimonials label[for="t-1"],
+#t-5:checked ~ .testimonials label[for="t-2"] {
+  transform: translate3d(600px, 0, -180px) rotateY(-25deg);
+  z-index: 2;
+}
+#t-1:checked ~ .testimonials label[for="t-2"],
+#t-2:checked ~ .testimonials label[for="t-3"],
+#t-3:checked ~ .testimonials label[for="t-4"],
+#t-4:checked ~ .testimonials label[for="t-5"],
+#t-5:checked ~ .testimonials label[for="t-1"] {
+  transform: translate3d(300px, 0, -90px) rotateY(-15deg);
+  z-index: 3;
+}
+#t-2:checked ~ .testimonials label[for="t-1"],
+#t-3:checked ~ .testimonials label[for="t-2"],
+#t-4:checked ~ .testimonials label[for="t-3"],
+#t-5:checked ~ .testimonials label[for="t-4"],
+#t-1:checked ~ .testimonials label[for="t-5"] {
+  transform: translate3d(-300px, 0, -90px) rotateY(15deg);
+  z-index: 3;
+}
+#t-3:checked ~ .testimonials label[for="t-1"],
+#t-4:checked ~ .testimonials label[for="t-2"],
+#t-5:checked ~ .testimonials label[for="t-3"],
+#t-2:checked ~ .testimonials label[for="t-5"],
+#t-1:checked ~ .testimonials label[for="t-4"] {
+  transform: translate3d(-600px, 0, -180px) rotateY(25deg);
+}
+#t-1:checked ~ .testimonials label[for="t-1"],
+#t-2:checked ~ .testimonials label[for="t-2"],
+#t-3:checked ~ .testimonials label[for="t-3"],
+#t-4:checked ~ .testimonials label[for="t-4"],
+#t-5:checked ~ .testimonials label[for="t-4"],
+#t-5:checked ~ .testimonials label[for="t-5"] {
+  z-index: 4;
+}
