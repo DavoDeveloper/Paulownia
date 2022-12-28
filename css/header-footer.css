@@ -371,7 +371,6 @@ i {
   background-size: contain;
   height: 151px;
   background-repeat: no-repeat;
-  background-position: center;
 }
 .item_info {
   padding: 8px;
@@ -502,7 +501,8 @@ i {
   overflow: hidden;
 }
 .toggle_menu {
-  margin-top: 28px;
+  margin-top: 31px;
+  font-size: 25px;
 }
 .header_container {
   width: 100%;

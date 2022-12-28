@@ -3,6 +3,7 @@
   padding: 0;
   position: relative;
   z-index: 9;
+  min-height: 400px;
 }
 
 .page_links {
@@ -101,4 +102,5 @@
   justify-content: center;
   margin: auto;
   height: 70%;
+  text-align: center;
 }
